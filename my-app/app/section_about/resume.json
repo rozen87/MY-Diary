@@ -1,0 +1,119 @@
+[
+  {
+    "year": "2024 - 2026",
+
+    "title": {
+      "ja": "Senior Frontend Engineer / Sub Leader",
+      "en": "Senior Frontend Engineer / Sub Leader"
+    },
+
+    "company": {
+      "ja": "BtoB Platform System",
+      "en": "BtoB Platform System"
+    },
+
+    "summary": {
+      "ja": "Next.jsベースの大規模BtoBシステムの新規構築プロジェクトに初期メンバー兼サブリーダーとして参画。Frontend Architecture設計、BFF設計、テスト戦略、コードレビュー、共通コンポーネント設計まで幅広く担当。",
+      "en": "Joined a large-scale BtoB platform project as an initial member and sub leader. Responsible for Frontend Architecture, BFF design, testing strategy, code review, and reusable component system development."
+    },
+
+    "highlights": {
+      "ja": [
+        "Next.js(App Router)ベースのFrontend Architectureを初期設計",
+        "Atomic Designベースの共通コンポーネントシステムを構築し、12以上の画面で再利用可能なUI基盤を実現",
+        "Node.jsベースのBFF層を設計し、フロントエンド最適化されたAPIレスポンスを実装",
+        "React QueryおよびReduxを利用した大規模状態管理とキャッシュ最適化を実施",
+        "Jest、Playwright、Pactを組み合わせたテスト戦略を策定",
+        "20以上の画面に対する単体・E2Eテストコードを単独で構築",
+        "Lefthook導入およびコードルール整備によるコード品質標準化を推進",
+        "シニアエンジニアとしてコードレビュー、技術レビュー、設計レビューを担当",
+        "Material UIとSassを活用した柔軟かつ保守性の高いUI設計を実現",
+        "LLMを活用し、開発効率改善および実装速度向上を推進"
+      ],
+
+      "en": [
+        "Designed the initial Frontend Architecture based on Next.js App Router",
+        "Built a reusable component system using Atomic Design across 12+ large-scale screens",
+        "Designed and implemented a Node.js-based BFF layer optimized for frontend requirements",
+        "Implemented scalable state management and caching strategies using React Query and Redux",
+        "Established a comprehensive testing strategy using Jest, Playwright, and Pact",
+        "Independently developed unit and E2E test suites for more than 20 screens",
+        "Improved code quality standards by introducing Lefthook and development guidelines",
+        "Led code reviews, technical reviews, and architecture discussions as a senior engineer",
+        "Designed flexible and maintainable UI systems using Material UI and Sass",
+        "Leveraged LLM-based workflows to improve development productivity and implementation speed"
+      ]
+    },
+
+    "skills": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Node.js",
+      "BFF",
+      "Jest",
+      "Playwright",
+      "Pact",
+      "React Query",
+      "Redux",
+      "MUI",
+      "Sass",
+      "Docker",
+      "GitHub Actions",
+      "Lefthook",
+      "Atomic Design"
+    ]
+  },
+
+  {
+    "year": "2023 - 2024",
+
+    "title": {
+      "ja": "Frontend Engineer",
+      "en": "Frontend Engineer"
+    },
+
+    "company": {
+      "ja": "BtoC Mobile Web Application",
+      "en": "BtoC Mobile Web Application"
+    },
+
+    "summary": {
+      "ja": "BtoC向けモバイルWebアプリケーションの保守・運用・改善プロジェクトに参画。Next.jsベースの機能追加、Node.js BFF設計、リファクタリング、大規模画面改善を担当。",
+      "en": "Worked on maintenance, feature development, and large-scale refactoring for a BtoC mobile web application using Next.js and Node.js."
+    },
+
+    "highlights": {
+      "ja": [
+        "機種変更シミュレーターなど複雑なビジネスロジックを含むUI機能を実装",
+        "OpenAPI連携によるデータ取得および状態管理ロジックを設計",
+        "Node.js(Express)ベースのBFF層を構築",
+        "CSV→JSON変換自動化などデータ基盤改善を実施",
+        "新チーム立ち上げ時の初期メンバーとして環境構築からリリースまで担当",
+        "全国エリアページ量産フローを構築し、開発効率を改善",
+        "既存システムのリファクタリングおよびコードレビューを推進"
+      ],
+
+      "en": [
+        "Implemented complex UI features including mobile device migration simulators",
+        "Designed API integration and state management workflows using OpenAPI",
+        "Built a Node.js(Express)-based BFF layer for frontend optimization",
+        "Improved data infrastructure through CSV-to-JSON automation workflows",
+        "Participated as an initial member from environment setup to production release",
+        "Optimized large-scale page production workflows for nationwide area pages",
+        "Led refactoring and code review initiatives for legacy systems"
+      ]
+    },
+
+    "skills": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "Redux",
+      "OpenAPI",
+      "Figma"
+    ]
+  }
+]
