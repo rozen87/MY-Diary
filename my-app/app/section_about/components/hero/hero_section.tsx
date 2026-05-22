@@ -1,7 +1,7 @@
 import LanguageToggle from "./language_toggle";
 import StatsCard from "./stats_card";
 
-import { Language } from "../types/resume";
+import { Language } from "@/components/types/common";
 
 type Props = {
   language: Language;

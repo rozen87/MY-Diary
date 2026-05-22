@@ -7,7 +7,7 @@ import resumeData from "./resume.json";
 import HeroSection from "./components/hero/hero_section";
 import ResumeSection from "./components/resume/resume_section";
 
-import { Language } from "./components/types/resume";
+import { Language } from "@/components/types/common";
 
 export default function Page() {
   const [language, setLanguage] =

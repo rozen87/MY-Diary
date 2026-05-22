@@ -1,4 +1,4 @@
-import { Language } from "../types/resume";
+import { Language } from "@/components/types/common";
 
 type Props = {
   language: Language;

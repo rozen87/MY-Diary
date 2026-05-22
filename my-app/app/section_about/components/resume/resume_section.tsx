@@ -1,7 +1,8 @@
-import LayoutBox from "../common/layout_box";
+import LayoutBox from "@/components/common/layout_box";
 import SkillTag from "./skill_tag";
-import { Props } from "../types/resume";
+import { Props } from "@/components/types/common";
 import Timeline from "./timeline";
+
 
 export default function ResumeSection({ item, language }: Props) {
   return (
@@ -50,11 +51,11 @@ export default function ResumeSection({ item, language }: Props) {
 
           <p
             className="
-      text-xs
-      font-bold
-      tracking-[0.2em]
-      text-black/50
-    "
+              text-xs
+              font-bold
+              tracking-[0.2em]
+              text-black/50
+            "
           >
             {item.year}
           </p>

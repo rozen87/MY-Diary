@@ -1,0 +1,337 @@
+[
+  {
+    "title": {
+      "ja": "UI / UXデザイン",
+      "en": "UI / UX Design"
+    },
+
+    "description": {
+      "ja": "デザインシステム、レスポンシブUI、ユーザー中心設計、および視覚的コミュニケーション。",
+      "en": "Design systems, responsive UI, user-centered experience design, and visual communication."
+    },
+
+    "projects": [
+      {
+        "name": {
+          "ja": "エンタープライズデザインシステム",
+          "en": "Enterprise Design System"
+        },
+
+        "role": {
+          "ja": "UI / UX Designer",
+          "en": "UI / UX Designer"
+        },
+
+        "summary": {
+          "ja": "大規模エンタープライズ向けのスケーラブルなUIシステムを設計。",
+          "en": "Designed scalable UI systems for enterprise platforms."
+        },
+
+        "problem": {
+          "ja": "画面ごとにUIルールが異なり、一貫性不足が課題だった。",
+          "en": "UI inconsistency across screens caused maintenance issues."
+        },
+
+        "solution": {
+          "ja": "Atomic Designベースの共通デザインシステムを構築。",
+          "en": "Built a reusable design system based on Atomic Design."
+        },
+
+        "impact": {
+          "ja": "開発効率とUI品質の標準化を実現。",
+          "en": "Improved development speed and UI consistency."
+        },
+
+        "skills": ["Figma", "Responsive Design", "Atomic Design", "MUI"]
+      }
+    ]
+  },
+  {
+    "title": {
+      "ja": "フロントエンドエンジニアリング",
+      "en": "Frontend Engineering"
+    },
+
+    "description": {
+      "ja": "React、Vue、Next.jsベースのFrontend Architecture設計および大規模エンタープライズ開発。",
+      "en": "Frontend architecture and enterprise-scale frontend development using React, Vue, and Next.js."
+    },
+
+    "projects": [
+      {
+        "name": {
+          "ja": "大規模BtoBプラットフォーム",
+          "en": "Large Scale BtoB Platform"
+        },
+
+        "role": {
+          "ja": "Senior Frontend Engineer / Sub Leader",
+          "en": "Senior Frontend Engineer / Sub Leader"
+        },
+
+        "summary": {
+          "ja": "Next.jsベースの大規模BtoBシステムにおいて、Frontend Architecture設計、共通コンポーネント構築、および状態管理戦略を主導。",
+          "en": "Led frontend architecture, reusable component systems, and state management strategies for a large-scale BtoB platform built with Next.js."
+        },
+
+        "problem": {
+          "ja": "画面数増加に伴い、UIルール不統一、状態管理複雑化、再利用性不足が大きな課題となっていた。",
+          "en": "As the platform scaled, inconsistent UI rules, complex state management, and low component reusability became major challenges."
+        },
+
+        "solution": {
+          "ja": "Atomic Designベースの共通コンポーネントシステムを導入し、React Query・Reduxを活用した状態管理アーキテクチャを再設計。また、Container/Presentational Patternを採用し、保守性と拡張性を向上。",
+          "en": "Introduced a reusable component architecture based on Atomic Design and redesigned state management using React Query and Redux. Applied container/presentational patterns to improve maintainability and scalability."
+        },
+
+        "impact": {
+          "ja": "開発速度向上、コード品質標準化、およびチーム全体のUI実装効率改善を実現。コードレビューおよび技術サポートを通じてサブリーダーとしても活動。",
+          "en": "Improved development speed, standardized code quality, and increased UI implementation efficiency across the team. Also contributed as a sub leader through code reviews and technical support."
+        },
+
+        "skills": [
+          "Next.js",
+          "React",
+          "TypeScript",
+          "Redux",
+          "React Query",
+          "MUI",
+          "Atomic Design",
+          "Docker",
+          "GitHub Actions"
+        ]
+      },
+
+      {
+        "name": {
+          "ja": "Next.js業務システム改善",
+          "en": "Next.js Enterprise System Modernization"
+        },
+
+        "role": {
+          "ja": "Frontend Engineer",
+          "en": "Frontend Engineer"
+        },
+
+        "summary": {
+          "ja": "Next.js業務システムのUI改善およびコンポーネント最適化を担当。",
+          "en": "Improved UI architecture and optimized reusable components for an existing Next.js enterprise system."
+        },
+
+        "problem": {
+          "ja": "長期間運用されたシステムにより、コンポーネント依存関係と技術負債が増加していた。",
+          "en": "Long-term operation created complex component dependencies and significant technical debt."
+        },
+
+        "solution": {
+          "ja": "Next.js Component設計を整理し、共通化可能なUIパターンを再構築。API連携ロジックとUIロジックの分離も実施。",
+          "en": "Refactored Next.js component architecture and rebuilt reusable UI patterns. Also separated API integration logic from UI logic."
+        },
+
+        "impact": {
+          "ja": "保守性向上と画面追加速度改善を実現。",
+          "en": "Improved maintainability and accelerated new feature development."
+        },
+
+        "skills": ["Vue.js", "JavaScript", "TypeScript", "REST API", "SCSS"]
+      }
+    ]
+  },
+  {
+    "title": {
+      "ja": "BFFアーキテクチャ",
+      "en": "BFF Architecture"
+    },
+
+    "description": {
+      "ja": "Frontend最適化を目的としたNode.jsベースBFF設計。",
+      "en": "Node.js-based Backend For Frontend architecture optimized for frontend applications."
+    },
+
+    "projects": [
+      {
+        "name": {
+          "ja": "Node.js BFFシステム",
+          "en": "Node.js BFF System"
+        },
+
+        "role": {
+          "ja": "BFF Architect",
+          "en": "BFF Architect"
+        },
+
+        "summary": {
+          "ja": "Frontend要件に最適化されたNode.js BFF層を設計。",
+          "en": "Designed a frontend-optimized BFF layer using Node.js."
+        },
+
+        "problem": {
+          "ja": "Backend API仕様がFrontend表示要件と一致せず、複雑なデータ加工が必要だった。",
+          "en": "Backend API structures did not align with frontend requirements, resulting in complex client-side data transformations."
+        },
+
+        "solution": {
+          "ja": "Frontend専用BFF層を構築し、API Aggregation・レスポンス最適化・データ変換ロジックを集約。",
+          "en": "Built a dedicated BFF layer handling API aggregation, response optimization, and data transformation."
+        },
+
+        "impact": {
+          "ja": "Frontendコード複雑度削減および画面表示パフォーマンス改善を実現。",
+          "en": "Reduced frontend complexity and improved rendering performance."
+        },
+
+        "skills": ["Node.js", "Express", "BFF", "REST API", "TypeScript"]
+      }
+    ]
+  },
+  {
+    "title": {
+      "ja": "Testing Strategy",
+      "en": "Testing Strategy"
+    },
+
+    "description": {
+      "ja": "Jest・Playwright・Pactベースの大規模Frontend Testing設計。",
+      "en": "Enterprise-scale frontend testing strategies using Jest, Playwright, and Pact."
+    },
+
+    "projects": [
+      {
+        "name": {
+          "ja": "Frontend Testing Architecture",
+          "en": "Frontend Testing Architecture"
+        },
+
+        "role": {
+          "ja": "Testing Lead",
+          "en": "Testing Lead"
+        },
+
+        "summary": {
+          "ja": "Frontend品質向上のための包括的Testing Strategyを設計。",
+          "en": "Designed comprehensive frontend testing strategies for enterprise applications."
+        },
+
+        "problem": {
+          "ja": "画面増加に伴い、手動テスト依存による品質低下リスクが高まっていた。",
+          "en": "As the number of screens increased, manual testing became a major quality risk."
+        },
+
+        "solution": {
+          "ja": "Jest Unit Test・Playwright E2E Test・Pact Contract Testを導入し、CI/CDパイプラインに統合。",
+          "en": "Introduced Jest unit tests, Playwright E2E tests, and Pact contract tests integrated into CI/CD pipelines."
+        },
+
+        "impact": {
+          "ja": "リグレッションバグ削減およびデプロイ信頼性向上を実現。",
+          "en": "Reduced regression bugs and improved deployment reliability."
+        },
+
+        "skills": [
+          "Jest",
+          "Playwright",
+          "Pact",
+          "Testing Library",
+          "GitHub Actions"
+        ]
+      }
+    ]
+  },
+  {
+    "title": {
+      "ja": "API / Backend Integration",
+      "en": "API / Backend Integration"
+    },
+
+    "description": {
+      "ja": "FrontendとBackendを安定的に連携するためのAPI設計、データ最適化、およびシステム統合。",
+      "en": "API architecture, backend integration, and data optimization for scalable frontend applications."
+    },
+
+    "projects": [
+      {
+        "name": {
+          "ja": "Enterprise API Integration Platform",
+          "en": "Enterprise API Integration Platform"
+        },
+
+        "role": {
+          "ja": "Frontend / API Engineer",
+          "en": "Frontend / API Engineer"
+        },
+
+        "summary": {
+          "ja": "大規模業務システムにおけるFrontend-Backend間のAPI連携設計およびデータ最適化を担当。",
+          "en": "Designed scalable API integrations and optimized frontend-backend communication for enterprise systems."
+        },
+
+        "problem": {
+          "ja": "複数Backend API仕様が統一されておらず、画面ごとに複雑なデータ加工処理が必要だった。また、レスポンス肥大化によるパフォーマンス低下も課題だった。",
+          "en": "Multiple backend APIs lacked consistency, forcing complex data transformation logic in the frontend. Large response payloads also caused performance issues."
+        },
+
+        "solution": {
+          "ja": "APIレスポンス構造をFrontend要件ベースで再設計し、不要データ削減・型定義統一・エラーハンドリング共通化を実施。また、BFF層を通じたAPI Aggregationおよびキャッシュ戦略を導入。",
+          "en": "Redesigned API response structures based on frontend requirements, standardized type definitions, centralized error handling, and reduced unnecessary payloads. Introduced API aggregation and caching strategies through a BFF layer."
+        },
+
+        "impact": {
+          "ja": "画面表示速度改善、Frontendコード簡素化、およびAPI保守性向上を実現。Backendチームとの仕様調整および技術コミュニケーションも主導。",
+          "en": "Improved rendering performance, simplified frontend logic, and enhanced API maintainability. Also led technical communication and API specification coordination with backend teams."
+        },
+
+        "skills": [
+          "REST API",
+          "Node.js",
+          "TypeScript",
+          "BFF",
+          "OpenAPI",
+          "React Query",
+          "Axios",
+          "Express"
+        ]
+      },
+
+      {
+        "name": {
+          "ja": "API Error Handling Standardization",
+          "en": "API Error Handling Standardization"
+        },
+
+        "role": {
+          "ja": "Frontend Technical Lead",
+          "en": "Frontend Technical Lead"
+        },
+
+        "summary": {
+          "ja": "複数システム間で統一されていなかったAPI Error Handling設計を改善。",
+          "en": "Improved inconsistent API error handling architecture across multiple systems."
+        },
+
+        "problem": {
+          "ja": "APIごとに異なるError Response仕様が存在し、画面側の実装コストと保守負荷が増大していた。",
+          "en": "Different error response formats across APIs increased implementation complexity and maintenance costs."
+        },
+
+        "solution": {
+          "ja": "共通Error Format・Error Code管理・Global Error Handling Layerを導入し、画面側のエラーハンドリング処理を統一。",
+          "en": "Introduced standardized error formats, centralized error code management, and a global error handling layer."
+        },
+
+        "impact": {
+          "ja": "Frontend実装負荷削減および障害解析速度向上を実現。",
+          "en": "Reduced frontend implementation complexity and improved debugging efficiency."
+        },
+
+        "skills": [
+          "REST API",
+          "TypeScript",
+          "Axios",
+          "Error Handling",
+          "OpenAPI",
+          "Frontend Architecture"
+        ]
+      }
+    ]
+  }
+]
