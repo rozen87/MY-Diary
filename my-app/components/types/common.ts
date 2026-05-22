@@ -7,7 +7,6 @@ export type MultiLanguageText = {
 
 export type ResumeItem = {
   year: string;
-
   title: MultiLanguageText;
   company: MultiLanguageText;
   summary: MultiLanguageText;
