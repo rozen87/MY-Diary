@@ -22,10 +22,11 @@ export default function Page() {
         <h1 className="text-5xl font-black">Connect</h1>
 
         <section className="flex flex-col gap-16">
-  cc
-          <ConfettiButton />
+          <ConfettiButton>
+ㅇㅇㅇㅇ
+          </ConfettiButton>
         </section>
       </div>
-    </main>
+      </main>
   );
 }
