@@ -25,7 +25,7 @@ const [language, setLanguage] =
       "
       style={{
         background:
-          "linear-gradient(135deg, #2edf9b 0%, #0295f7 100%)",
+          "linear-gradient(135deg, #2edf9b 0%, #1044ff 100%)",
       }}
     >
       <div className="mx-auto flex max-w-7xl flex-col gap-24">

@@ -65,8 +65,13 @@ export default function Header() {
           />
 
           <NavLink
-            href="/section_contact"
-            label="Contact"
+            href="/section_Ai-me"
+            label="Ai-me"
+          />
+
+          <NavLink
+            href="/section_connect"
+            label="Connect"
           />
         </nav>
         <MobileMenu />

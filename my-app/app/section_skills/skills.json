@@ -12,7 +12,7 @@
 
     "skills": [
       {
-        "name": "React",
+        "name": "React(View Layer)",
 
         "summary": {
           "ja": "再利用可能Component設計および状態管理。",
@@ -27,7 +27,89 @@
               "Redux",
               "React Query",
               "Hooks",
-              "Context API"
+              "Context API",
+              "Atomic Design",
+              "Styled Components",
+              "Storybook",
+              "single-spa",
+              "Module Federation",
+              "useStateMachine",
+              "Material UI",
+              "Tailwind CSS"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Vue(View Layer)",
+
+        "summary": {
+          "ja": "スピード感のあるComponent設計および状態管理。",
+          "en": "Fast-paced component architecture and state management."
+        },
+
+        "groups": [
+          {
+            "label": "Tools",
+            "color": "#03c213",
+            "items": [
+              "Vuex",
+              "Vue Query",
+              "Hooks",
+              "Composition API",
+              "Styled Components",
+              "single-spa",
+              "Module Federation",
+              "useStateMachine",
+              "Vuetify",
+              "Tailwind CSS"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Next.js(Full-stack / SSR)",
+
+        "summary": {
+          "ja": "reactQueryやhooksを使用した再利用可能Component設計および状態管理。",
+          "en": "Reusable component architecture and state management using reactQuery and hooks."
+        },
+
+        "groups": [
+          {
+            "label": "Tools",
+            "color": "#03c213",
+            "items": [
+              "React Query",
+              "Hooks",
+              "App Routes",
+              "API Routes",
+              "Context API",
+              "SSR, SSG, ISR"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UI/UX/Design",
+
+        "summary": {
+          "ja": "WEBサイトのUI/UX設計に使用したツール。",
+          "en": "Tools used for WEB site UI/UX design."
+        },
+
+        "groups": [
+          {
+            "label": "Tools",
+            "color": "#e703ae",
+            "items": [
+              "Figma",
+              "Sketch",
+              "Adobe XD",
+              "Adobe Photoshop",
+              "Adobe Illustrator",
+              "workspace",
+              "Miro"
             ]
           }
         ]
