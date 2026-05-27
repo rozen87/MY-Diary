@@ -65,7 +65,7 @@ export default function Header() {
           />
 
           <NavLink
-            href="/section_Ai-me"
+            href="/section_ai-me"
             label="Ai-me"
           />
 

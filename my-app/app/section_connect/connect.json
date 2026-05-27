@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "badge": {
+      "ja": "コネクト",
+      "en": "CONNECT"
+    },
+
+    "title": {
+      "ja": "一緒に素敵なプロダクトを作りましょう",
+      "en": "Let’s Build Great Products Together"
+    },
+
+    "description": {
+      "ja": "Frontend Architecture・Design・Communication を大切にしながら、より良いプロダクト作りを目指しています。",
+      "en": "Passionate about frontend architecture, design, communication, and building thoughtful digital experiences."
+    }
+  },
+
+  "aboutMe": {
+    "badge": {
+      "ja": "私について",
+      "en": "ABOUT ME"
+    },
+
+    "title": {
+      "ja": "技術だけではなく、人との繋がりも大切にしています。",
+      "en": "I value people and communication as much as technology."
+    },
+
+    "description": {
+      "ja": "新しい技術やデザインを学ぶことが好きで、チームで協力しながらプロダクトを作ることにやりがいを感じています。",
+      "en": "I enjoy learning modern technologies, exploring creative ideas, and collaborating with people to build meaningful products."
+    }
+  },
+
+  "interests": {
+    "badge": {
+      "ja": "興味・インスピレーション",
+      "en": "INTERESTS"
+    },
+
+    "title": {
+      "ja": "コードの外にも、たくさんのインスピレーションがあります。",
+      "en": "Inspiration exists beyond code."
+    },
+
+    "description": {
+      "ja": "UIデザイン、カフェ、旅行、写真、音楽など、日常の中から新しいアイデアを得ています。",
+      "en": "I enjoy UI exploration, cafes, travel, photography, music, and finding inspiration from everyday experiences."
+    },
+
+    "items": [
+      "UI Design",
+      "Photography",
+      "Travel",
+      "Coffee",
+      "Music",
+      "Creative Coding",
+      "Design Systems",
+      "Modern Products"
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+// import { useState } from "react";
 
 export default function Page() {
 
@@ -22,8 +22,10 @@ export default function Page() {
           AI-Me
           </h1>
 
-        <section className="flex flex-col gap-16">
-  cc
+        <section className="flex flex-col gap-16 margin-auto items-center text-white/80">
+          comming soon...<br />
+          工事中。。。<br />
+          아직 준비중입니다...<br />
         </section>
       </div>
     </main>

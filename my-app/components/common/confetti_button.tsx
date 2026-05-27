@@ -13,12 +13,17 @@ interface SubmitButtonProps
 
 export default function ConfettiButton({
   children,
+  onClick,
+  className,
   ...props
 }: SubmitButtonProps) {
   const [isExploding, setIsExploding] =
     useState(false);
 
-  const handleClick = () => {
+  const handleClick = (
+    event: React.MouseEvent<HTMLButtonElement>
+  ) => {
+    // confetti restart
     setIsExploding(false);
 
     requestAnimationFrame(() => {
@@ -29,24 +34,21 @@ export default function ConfettiButton({
       setIsExploding(false);
     }, 2500);
 
-    props.onClick?.(
-      {} as React.MouseEvent<HTMLButtonElement>
-    );
+    // 외부 이벤트 실행
+    onClick?.(event);
   };
 
   return (
     <div className="relative inline-block">
-      {/* glow background */}
+      {/* glow */}
       <div
         className="
           absolute
           inset-0
-          rounded-full
-          bg-white/40
-          blur-2xl
+          bg-white/20
+          blur-xl
           transition-all
           duration-500
-          group-hover:scale-125
         "
       />
 
@@ -57,7 +59,6 @@ export default function ConfettiButton({
           group
           relative
           overflow-hidden
-          rounded-full
           border
           border-white/30
           bg-black
@@ -72,7 +73,7 @@ export default function ConfettiButton({
           hover:scale-105
           hover:bg-black/90
           active:scale-95
-          ${props.className ?? ""}
+          ${className ?? ""}
         `}
       >
         {/* shine */}
