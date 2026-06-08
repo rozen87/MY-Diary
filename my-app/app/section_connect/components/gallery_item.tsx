@@ -42,22 +42,35 @@ export default function GalleryItem({
         ${sizeClass[size]}
       `}
     >
-      {/* image */}
-      <motion.img
-        src={src}
-        alt={title}
-        whileHover={{
-          scale: 1.08,
-        }}
-        transition={{
-          duration: 0.6,
-        }}
+      <div
         className="
-          h-full
-          w-full
-          object-cover
-        "
-      />
+    flex
+    h-full
+    w-full
+    items-center
+    justify-center
+    bg-black/5
+    p-6
+  "
+      >
+        <motion.img
+          src={src}
+          alt={title}
+          whileHover={{
+            scale: 1.04,
+          }}
+          transition={{
+            duration: 0.5,
+          }}
+          className="
+      max-h-full
+      max-w-full
+      rounded-[24px]
+      object-contain
+      shadow-2xl
+    "
+        />
+      </div>
 
       {/* dark overlay */}
       <div

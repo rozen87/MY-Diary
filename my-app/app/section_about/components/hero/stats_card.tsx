@@ -3,10 +3,7 @@ type Props = {
   description?: string;
 };
 
-export default function StatsCard({
-  title,
-  description,
-}: Props) {
+export default function StatsCard({ title, description }: Props) {
   return (
     <div
       className="
@@ -23,7 +20,14 @@ export default function StatsCard({
         hover:shadow-2xl
       "
     >
-      <p className="text-5xl font-black">
+      <p
+        className="
+          text-3xl
+          font-black
+          wrap-break-word
+          whitespace-normal
+        "
+      >
         {title}
       </p>
 

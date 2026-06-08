@@ -7,9 +7,7 @@ import {
 
 type HeroData = {
   badge: MultiLanguageText;
-
   title: MultiLanguageText;
-
   description: MultiLanguageText;
 };
 

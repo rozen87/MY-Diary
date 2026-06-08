@@ -59,5 +59,231 @@
       "Design Systems",
       "Modern Products"
     ]
+  },
+
+  "dailyLife": {
+    "title": {
+      "ja": "私のライフスタイル",
+      "en": "My Lifestyle"
+    },
+
+    "subtitle": {
+      "ja": "趣味と日常",
+      "en": "Life & Hobbies"
+    },
+    "description": {
+      "ja": "私は活動的で前向きな性格です。運動を通してストレスを解消し、体を動かしながら集中力やアイデアを高めています。家でずっとパソコンを見るだけでは未来は広がらないと思っています。",
+
+      "en": "I’m an active and forward-thinking person. Through sports and outdoor activities, I refresh my mind and improve focus and creativity. I believe growth comes not only from sitting in front of a computer, but also from moving, experiencing, and exploring the world."
+    },
+
+    "tags": [
+      {
+        "ja": "ENTJ",
+        "en": "ENTJ"
+      },
+      {
+        "ja": "ランニング",
+        "en": "Running"
+      },
+      {
+        "ja": "カフェ巡り",
+        "en": "Cafe"
+      },
+      {
+        "ja": "旅行",
+        "en": "Travel"
+      },
+      {
+        "ja": "写真",
+        "en": "Photography"
+      }
+    ],
+    "hobbies": [
+      {
+        "id": "running",
+        "label": {
+          "ja": "ランニング",
+          "en": "Running"
+        },
+        "hasGallery": true,
+        "description": {
+          "ja": "夜のランニングで集中力を高めています。",
+          "en": "Running helps me clear my mind and improve focus."
+        }
+      },
+      {
+        "id": "golf",
+        "label": {
+          "ja": "ゴルフ",
+          "en": "Golf"
+        },
+        "hasGallery": true,
+        "description": {
+          "ja": "自然の中で集中力を鍛えています。",
+          "en": "Golf helps me stay calm and focused."
+        }
+      },
+      {
+        "id": "snowboarding",
+        "label": {
+          "ja": "スノーボード",
+          "en": "Snowboarding"
+        },
+        "hasGallery": true,
+        "description": {
+          "ja": "雪山で自然と一体になりながら、心も体もリフレッシュしています。  ",
+          "en": "Snowboarding allows me to connect with nature and refresh both my mind and body in the mountains."
+        }
+      },
+      {
+        "id": "inkArt & wine",
+        "label": {
+          "ja": "インクアート & ワイン",
+          "en": "Ink Art & Wine"
+        },
+        "hasGallery": true,
+        "description": {
+          "ja": "インクアートで創造力を刺激し、ワインでリラックスしています。 ",
+          "en": "Ink Art & Wine helps me express my creativity and relax."
+        }
+      },
+      {
+        "id": "reading",
+        "label": {
+          "ja": "読書",
+          "en": "Reading"
+        },
+        "hasGallery": false
+      },
+      {
+        "id": "writing",
+        "label": {
+          "ja": "文章を書くこと",
+          "en": "Writing"
+        },
+        "hasGallery": false
+      },
+      {
+        "id": "cooking",
+        "label": {
+          "ja": "料理",
+          "en": "Cooking"
+        },
+        "hasGallery": false
+      },
+      {
+        "id": "Pilates",
+        "label": {
+          "ja": "ピラティス",
+          "en": "Pilates"
+        },
+        "hasGallery": true,
+        "description": {
+          "ja": "ピラティスで体幹を鍛え、心身のバランスを保っています。",
+          "en": "Pilates helps me maintain a balance between mind and body."
+        }
+      },
+      {
+        "id": "travel memories",
+        "label": {
+          "ja": "旅行の記録",
+          "en": "Travel Memories"
+        },
+        "hasGallery": true,
+        "description": {
+          "ja": "旅行の記録を残すことで、思い出を大切にしています。",
+          "en": "I keep travel memories to cherish the experiences."
+        }
+      }
+    ],
+    "images": [
+      {
+        "src": "/gallery_image/2025-run1.JPG",
+        "title": "Morning Running",
+        "category": "Running",
+        "size": "large"
+      },
+      {
+        "src": "/gallery_image/2026-run1.JPG",
+        "title": "2026 Tokyo Marathon Eve Relay Race",
+        "category": "Running",
+        "size": "large"
+      },
+      {
+        "src": "/gallery_image/2026-gamin-10km.JPG",
+        "title": "2026 gamin 10km event marathon",
+        "category": "Running",
+        "size": "large"
+      },
+      {
+        "src": "/gallery_image/2026-run2.JPG",
+        "title": "2026 sibuya/omotesando woman's 10km event marathon",
+        "category": "Running",
+        "size": "large"
+      },
+
+      {
+        "src": "/gallery_image/golf-1.jpg",
+        "title": "2025 9-hole driving Golf",
+        "category": "Golf",
+        "size": "large"
+      },
+      {
+        "src": "/gallery_image/golf-2.jpg",
+        "title": "2025 11 november game Golf",
+        "category": "Golf",
+        "size": "large"
+      },
+      {
+        "src": "/gallery_image/pilates-1.jpg",
+        "title": "2026 Pilates",
+        "category": "Pilates",
+        "size": "medium"
+      },
+      {
+        "src": "/gallery_image/tracking-1.jpg",
+        "title": "Travel Memories",
+        "category": "Travel Memories",
+        "size": "wide"
+      },
+    {
+        "src": "/gallery_image/2025-sea-1.jpg",
+        "title": "Beach",
+        "category": "Travel memories",
+        "size": "medium"
+      },
+          {
+        "src": "/gallery_image/2025-sea-2.jpg",
+        "title": "Encounter with a sea turtle underwater",
+        "category": "Travel memories",
+        "size": "large"
+      },
+      {
+        "src": "/gallery_image/snow-1.jpg",
+        "title": "snowboarding 2026",
+        "category": "Snowboarding",
+        "size": "medium"
+      },
+
+      {
+        "src": "/gallery_image/2026-art1.jpg",
+        "title": "Sea foam and jellyfish",
+        "category": "inkArt & wine",
+        "size": "large"
+      },
+      {
+        "src": "/gallery_image/2026-art2.jpg",
+        "title": "Volcano and Rose",
+        "category": "inkArt & wine",
+        "size": "large"
+      },
+    {
+        "src": "/gallery_image/2026-art3.jpg",
+        "title": "Waves of an old tree",
+        "category": "inkArt & wine",
+        "size": "large"
+      }
+    ]
   }
 }

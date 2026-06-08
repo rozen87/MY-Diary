@@ -31,11 +31,11 @@ export default function ContactCard({
           items-center
           justify-center
           gap-10
-          py-24
+          py-20
           text-center
         "
       >
-        <h2
+        <h3
           className="
             text-5xl
             font-black
@@ -46,7 +46,7 @@ export default function ContactCard({
           {language === "ja"
             ? "一緒に素敵な\nプロダクトを作りましょう"
             : "Let’s Build\nSomething Great"}
-        </h2>
+        </h3>
 
         <p
           className="

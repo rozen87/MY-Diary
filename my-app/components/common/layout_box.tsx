@@ -17,7 +17,7 @@ export default function LayoutBox({
         backdrop-blur-md
         shadow-lg
         px-6
-        py-8
+        py-6
         ${className}
       `}
     >

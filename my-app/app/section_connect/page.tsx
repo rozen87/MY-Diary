@@ -8,12 +8,15 @@ import HeroCard from "./components/hero_card";
 import AboutMeCard from "./components/about_me_card";
 import InterestsCard from "./components/interests_card";
 import ContactCard from "./components/contact_cards";
+import DailyLifeCard from "./components/daily_life_card";
 
+import { DailyLifeData } from "@/components/types/connect";
 import { Language } from "@/components/types/common";
 
 export default function Page() {
-  const [language, setLanguage] =
-    useState<Language>("ja");
+  const [language, setLanguage] = useState<Language>("ja");
+
+  const dailyLifeData = connectData.dailyLife as DailyLifeData;
 
   return (
     <main
@@ -81,27 +84,19 @@ export default function Page() {
         </div>
 
         {/* HERO */}
-        <HeroCard
-          language={language}
-          data={connectData.hero}
-        />
+        <HeroCard language={language} data={connectData.hero} />
 
         {/* ABOUT ME */}
-        <AboutMeCard
-          language={language}
-          data={connectData.aboutMe}
-        />
+        <AboutMeCard language={language} data={connectData.aboutMe} />
+
+        {/* DAILY LIFE */}
+        <DailyLifeCard language={language} data={dailyLifeData} />
 
         {/* INTERESTS */}
-        <InterestsCard
-          language={language}
-          data={connectData.interests}
-        />
+        <InterestsCard language={language} data={connectData.interests} />
 
         {/* CONTACT */}
-        <ContactCard
-          language={language}
-        />
+        <ContactCard language={language} />
       </div>
     </main>
   );
