@@ -62,17 +62,17 @@ export default function HeroCard({
 
         {/* hero text */}
         <div className="flex flex-col gap-6">
-          <h1
+          <h3
             className="
               max-w-5xl
-              text-5xl
+              text-2xl
               font-black
               leading-[0.9]
-              md:text-7xl
+              md:text-5xl
             "
           >
             {data.title[language]}
-          </h1>
+          </h3>
 
           <p
             className="

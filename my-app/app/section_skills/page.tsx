@@ -6,13 +6,18 @@ import rawSkillsData from "./skills.json";
 import { pageData } from "./skills_page";
 import { Language } from "@/components/types/common";
 import { SkillCategory as SkillCategoryType } from "@/components/types/skill";
+import ScrollToTopButton from "@/components/ui/ScrollTop";
 
+
+const rawSkillsDataUnknown = rawSkillsData as unknown;
 const skillsData: SkillCategoryType[] =
-  Array.isArray(rawSkillsData)
-    ? (rawSkillsData as unknown as SkillCategoryType[])
-    : "categories" in rawSkillsData
-    ? (rawSkillsData.categories as unknown as SkillCategoryType[])
-    : ([rawSkillsData] as unknown as SkillCategoryType[]);
+  Array.isArray(rawSkillsDataUnknown)
+    ? (rawSkillsDataUnknown as SkillCategoryType[])
+    : typeof rawSkillsDataUnknown === "object" &&
+      rawSkillsDataUnknown !== null &&
+      "categories" in rawSkillsDataUnknown
+    ? ((rawSkillsDataUnknown as { categories: SkillCategoryType[] }).categories)
+    : ([rawSkillsDataUnknown as SkillCategoryType]);
 
 export default function Page() {
   const [language, setLanguage] = useState<Language>("ja");
@@ -138,6 +143,7 @@ export default function Page() {
           ))}
         </section>
       </div>
+      <ScrollToTopButton />
     </main>
   );
 }

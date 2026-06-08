@@ -1,11 +1,8 @@
 "use client";
 
 import { useState } from "react";
-
 import LayoutBox from "@/components/common/layout_box";
-
 import ConfettiButton from "@/components/common/confetti_button";
-
 import ModalOverlay from "@/components/common/modal_overlay";
 
 import {
@@ -37,10 +34,10 @@ export default function ContactCard({
       >
         <h3
           className="
-            text-5xl
+            text-2xl
             font-black
             leading-tight
-            md:text-7xl
+            md:text-5xl
           "
         >
           {language === "ja"
@@ -91,7 +88,7 @@ export default function ContactCard({
               text-center
             "
           >
-            <h3 className="text-3xl font-black">
+            <h3 className="text-2xl font-black">
               📩 Contact
             </h3>
 

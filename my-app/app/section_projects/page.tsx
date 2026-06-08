@@ -7,6 +7,7 @@ import rawProjectData from "./project.json";
 import { pageData } from "./project_page";
 import { Language } from "@/components/types/common";
 import { ProjectSectionItem } from "@/components/types/project";
+import ScrollToTopButton from "@/components/ui/ScrollTop";
 
 const projectData =
   rawProjectData as ProjectSectionItem[];
@@ -133,6 +134,7 @@ export default function Page() {
           })}
         </section>
       </div>
+      <ScrollToTopButton />
     </main>
   );
 }

@@ -107,16 +107,16 @@ export default function DailyLifeCard({
             {data.subtitle[language]}
           </p>
 
-          <h2
+          <h3
             className="
-              text-4xl
+              text-2xl
               font-black
               leading-tight
-              md:text-6xl
+              md:text-5xl
             "
           >
             {data.title[language]}
-          </h2>
+          </h3>
 
           <p
             className="

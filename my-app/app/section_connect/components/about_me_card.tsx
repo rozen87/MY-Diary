@@ -73,17 +73,17 @@ export default function AboutMeCard({
 
         {/* title */}
         <div className="flex flex-col gap-6">
-          <h2
+          <h3
             className="
               max-w-4xl
-              text-4xl
+              text-2xl
               font-black
               leading-tight
-              md:text-6xl
+              md:text-5xl
             "
           >
             {data.title[language]}
-          </h2>
+          </h3>
 
           <p
             className="
