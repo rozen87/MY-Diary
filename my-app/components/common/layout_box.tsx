@@ -5,21 +5,10 @@ type Props = {
   className?: string;
 };
 
-export default function LayoutBox({
-  children,
-  className = "",
-}: Props) {
+export default function LayoutBox({ children, className = "" }: Props) {
   return (
     <div
-      className={`
-        rounded-[24px]
-        bg-white/70
-        backdrop-blur-md
-        shadow-lg
-        px-6
-        py-6
-        ${className}
-      `}
+      className={`rounded-[24px] bg-white/70 px-6 py-6 shadow-lg backdrop-blur-md ${className} `}
     >
       {children}
     </div>

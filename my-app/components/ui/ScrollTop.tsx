@@ -27,25 +27,7 @@ export default function ScrollToTopButton() {
   return (
     <button
       onClick={handleScrollTop}
-      className={`
-        fixed
-        bottom-8
-        right-8
-        z-50
-        rounded-full
-        bg-black/80
-        px-4
-        py-3
-        text-sm
-        font-bold
-        text-white
-        backdrop-blur-md
-        transition-all
-        duration-300
-        hover:scale-105
-        hover:bg-black
-        ${visible ? "opacity-100" : "pointer-events-none opacity-0"}
-      `}
+      className={`fixed right-8 bottom-8 z-50 rounded-full bg-black/80 px-4 py-3 text-sm font-bold text-white backdrop-blur-md transition-all duration-300 hover:scale-105 hover:bg-black ${visible ? "opacity-100" : "pointer-events-none opacity-0"} `}
     >
       ↑ TOP
     </button>

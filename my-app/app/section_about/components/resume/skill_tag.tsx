@@ -4,16 +4,7 @@ type Props = {
 
 export default function SkillTag({ label }: Props) {
   return (
-    <span
-      className="
-        rounded-full
-        bg-black
-        text-white
-        text-sm
-        px-3
-        py-1
-      "
-    >
+    <span className="rounded-full bg-black px-3 py-1 text-sm text-white">
       {label}
     </span>
   );

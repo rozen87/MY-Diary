@@ -31,70 +31,21 @@ export default function MobileMenu() {
     <div className="relative md:hidden">
       {/* button */}
       <button
-        onClick={() =>
-          setOpen((prev) => !prev)
-        }
-        className="
-          flex
-          h-11
-          w-11
-          items-center
-          justify-center
-          rounded-full
-          bg-black
-          text-white
-          shadow-lg
-          transition-all
-          duration-300
-          hover:scale-105
-        "
+        onClick={() => setOpen((prev) => !prev)}
+        className="flex h-11 w-11 items-center justify-center rounded-full bg-black text-white shadow-lg transition-all duration-300 hover:scale-105"
       >
-        {open ? (
-          <X size={20} />
-        ) : (
-          <Menu size={20} />
-        )}
+        {open ? <X size={20} /> : <Menu size={20} />}
       </button>
 
       {/* dropdown */}
       {open && (
-        <div
-          className="
-            absolute
-            right-0
-            top-16
-            flex
-            w-52
-            flex-col
-            gap-2
-            rounded-3xl
-            border
-            border-white/30
-            bg-white/70
-            p-3
-            backdrop-blur-xl
-            shadow-2xl
-          "
-        >
+        <div className="absolute top-16 right-0 flex w-52 flex-col gap-2 rounded-3xl border border-white/30 bg-white/70 p-3 shadow-2xl backdrop-blur-xl">
           {menus.map((menu) => (
             <Link
               key={menu.href}
               href={menu.href}
-              onClick={() =>
-                setOpen(false)
-              }
-              className="
-                rounded-2xl
-                px-4
-                py-3
-                text-sm
-                font-semibold
-                text-black/70
-                transition-all
-                duration-300
-                hover:bg-black
-                hover:text-white
-              "
+              onClick={() => setOpen(false)}
+              className="rounded-2xl px-4 py-3 text-sm font-semibold text-black/70 transition-all duration-300 hover:bg-black hover:text-white"
             >
               {menu.label}
             </Link>

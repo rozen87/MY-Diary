@@ -32,18 +32,7 @@ export default function ProjectSection({
         description={description[language]}
       />
 
-      <LayoutBox
-        className="
-          flex
-          flex-col
-          gap-6
-          rounded-[32px]
-          border
-          border-white/30
-          bg-white/40
-          backdrop-blur-xl
-        "
-      >
+      <LayoutBox className="flex flex-col gap-6 rounded-[32px] border border-white/30 bg-white/40 backdrop-blur-xl">
         <div className="flex flex-col gap-6">
           {projects.map((project) => (
             <ProjectCard
