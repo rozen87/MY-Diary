@@ -10,7 +10,7 @@ type SkillCategoryProps = SkillCategory & {
 export default function SkillCategory({
   category,
   description,
-  skills,
+  items,
   language,
 }: SkillCategoryProps) {
   return (
@@ -71,9 +71,13 @@ export default function SkillCategory({
             xl:grid-cols-3
           "
         >
-          {skills.map((skill) => (
-            <SkillCard key={skill.name} skill={skill} language={language} />
-          ))}
+        {items.map((item, index) => (
+          <SkillCard
+            key={`${item.title}-${index}`}
+            skill={item}
+            language={language}
+          />
+        ))}
         </div>
       </LayoutBox>
     </section>

@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 import resumeData from "./resume.json";
-
+import ScrollToTopButton from "@/components/ui/ScrollTop";
 import HeroSection from "./components/hero/hero_section";
 import ResumeSection from "./components/resume/resume_section";
 
@@ -41,6 +41,7 @@ export default function Page() {
             />
           ))}
         </section>
+      <ScrollToTopButton />
       </div>
     </main>
   );

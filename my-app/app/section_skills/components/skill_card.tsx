@@ -1,16 +1,15 @@
 "use client";
 
 import SkillBadge from "./skill_badge";
-import { Language } from "@/components/types/common";
-
 import { SkillItem } from "@/components/types/skill";
 
 type Props = {
-  language: Language;
   skill: SkillItem;
 };
 
-export default function SkillCard({ language, skill }: Props) {
+export default function SkillCard({
+  skill,
+}: Props) {
   return (
     <div
       className="
@@ -30,7 +29,7 @@ export default function SkillCard({ language, skill }: Props) {
         hover:shadow-2xl
       "
     >
-      {/* glow effect */}
+      {/* glow */}
       <div
         className="
           absolute
@@ -45,54 +44,27 @@ export default function SkillCard({ language, skill }: Props) {
         "
       />
 
-      {/* content */}
       <div className="relative z-10">
         {/* title */}
         <h3
           className="
-            text-3xl
-            font-black
+            text-2xl
+            font-semibold
             tracking-tight
+            leading-tight
           "
         >
-          {skill.name}
+          {skill.title}
         </h3>
 
-        {/* summary */}
-        <p
-          className="
-            mt-5
-            leading-7
-            text-black/70
-          "
-        >
-          {skill.summary[language]}
-        </p>
-
-        {/* groups */}
-        <div className="mt-10 flex flex-col gap-8">
-          {skill.groups.map((group) => (
-            <div key={group.label} className="flex flex-col gap-3">
-              {/* group title */}
-              <p
-                className="
-                  text-xs
-                  font-black
-                  uppercase
-                  tracking-[0.25em]
-                  text-black/45
-                "
-              >
-                {group.label}
-              </p>
-
-              {/* badge area */}
-              <div className="flex flex-wrap gap-3">
-                {group.items.map((item) => (
-                  <SkillBadge key={item} label={item} color={group.color} />
-                ))}
-              </div>
-            </div>
+        {/* badge area */}
+        <div className="mt-8 flex flex-wrap gap-3">
+          {skill.skills.map((item, index) => (
+            <SkillBadge
+              key={`${item}-${index}`}
+              label={item}
+              color={skill.color}
+            />
           ))}
         </div>
       </div>

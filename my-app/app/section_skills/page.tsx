@@ -7,13 +7,15 @@ import { pageData } from "./skills_page";
 import { Language } from "@/components/types/common";
 import { SkillCategory as SkillCategoryType } from "@/components/types/skill";
 
-const skillsData =
-  rawSkillsData as unknown as SkillCategoryType[];
-
+const skillsData: SkillCategoryType[] =
+  Array.isArray(rawSkillsData)
+    ? (rawSkillsData as unknown as SkillCategoryType[])
+    : "categories" in rawSkillsData
+    ? (rawSkillsData.categories as unknown as SkillCategoryType[])
+    : ([rawSkillsData] as unknown as SkillCategoryType[]);
 
 export default function Page() {
-const [language, setLanguage] =
-  useState<Language>("en");
+  const [language, setLanguage] = useState<Language>("ja");
 
   return (
     <main
@@ -24,8 +26,7 @@ const [language, setLanguage] =
         pb-20
       "
       style={{
-        background:
-          "linear-gradient(135deg, #2edf9b 0%, #1044ff 100%)",
+        background: "linear-gradient(135deg, #2edf9b 0%, #1044ff 100%)",
       }}
     >
       <div className="mx-auto flex max-w-7xl flex-col gap-24">
@@ -131,7 +132,8 @@ const [language, setLanguage] =
               language={language}
               category={category.category}
               description={category.description}
-              skills={category.skills}
+              items={category.items}
+              columns={category.columns}
             />
           ))}
         </section>

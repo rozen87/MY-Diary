@@ -1,9 +1,10 @@
 type Props = {
   title: string;
   description?: string;
+  titleClassName?: string;
 };
 
-export default function StatsCard({ title, description }: Props) {
+export default function StatsCard({ title, description, titleClassName }: Props) {
   return (
     <div
       className="
@@ -28,7 +29,7 @@ export default function StatsCard({ title, description }: Props) {
           whitespace-normal
         "
       >
-        {title}
+        <span className={titleClassName}>{title}</span>
       </p>
 
       {description && (

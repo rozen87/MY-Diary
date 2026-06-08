@@ -1,119 +1,494 @@
 [
   {
-    "year": "2024 - 2026",
-
+    "year": "2026",
     "title": {
       "ja": "Senior Frontend Engineer / Sub Leader",
       "en": "Senior Frontend Engineer / Sub Leader"
     },
-
     "company": {
       "ja": "BtoB Platform System",
       "en": "BtoB Platform System"
     },
-
     "summary": {
-      "ja": "Next.jsベースの大規模BtoBシステムの新規構築プロジェクトに初期メンバー兼サブリーダーとして参画。Frontend Architecture設計、BFF設計、テスト戦略、コードレビュー、共通コンポーネント設計まで幅広く担当。",
-      "en": "Joined a large-scale BtoB platform project as an initial member and sub leader. Responsible for Frontend Architecture, BFF design, testing strategy, code review, and reusable component system development."
+      "ja": "Next.jsベースの大規模BtoBシステム新規開発にサブリーダーとして参画。Frontend Architecture設計、BFF設計、テスト戦略、コードレビューを主導。",
+      "en": "Worked as a sub leader in a large-scale BtoB platform project using Next.js, leading frontend architecture, BFF design, testing strategy, and code reviews."
     },
-
-    "highlights": {
-      "ja": [
-        "Next.js(App Router)ベースのFrontend Architectureを初期設計",
-        "Atomic Designベースの共通コンポーネントシステムを構築し、12以上の画面で再利用可能なUI基盤を実現",
-        "Node.jsベースのBFF層を設計し、フロントエンド最適化されたAPIレスポンスを実装",
-        "React QueryおよびReduxを利用した大規模状態管理とキャッシュ最適化を実施",
-        "Jest、Playwright、Pactを組み合わせたテスト戦略を策定",
-        "20以上の画面に対する単体・E2Eテストコードを単独で構築",
-        "Lefthook導入およびコードルール整備によるコード品質標準化を推進",
-        "シニアエンジニアとしてコードレビュー、技術レビュー、設計レビューを担当",
-        "Material UIとSassを活用した柔軟かつ保守性の高いUI設計を実現",
-        "LLMを活用し、開発効率改善および実装速度向上を推進"
-      ],
-
-      "en": [
-        "Designed the initial Frontend Architecture based on Next.js App Router",
-        "Built a reusable component system using Atomic Design across 12+ large-scale screens",
-        "Designed and implemented a Node.js-based BFF layer optimized for frontend requirements",
-        "Implemented scalable state management and caching strategies using React Query and Redux",
-        "Established a comprehensive testing strategy using Jest, Playwright, and Pact",
-        "Independently developed unit and E2E test suites for more than 20 screens",
-        "Improved code quality standards by introducing Lefthook and development guidelines",
-        "Led code reviews, technical reviews, and architecture discussions as a senior engineer",
-        "Designed flexible and maintainable UI systems using Material UI and Sass",
-        "Leveraged LLM-based workflows to improve development productivity and implementation speed"
-      ]
-    },
-
     "skills": [
       "Next.js",
       "React",
       "TypeScript",
       "Node.js",
-      "BFF",
-      "Jest",
       "Playwright",
       "Pact",
       "React Query",
       "Redux",
       "MUI",
-      "Sass",
-      "Docker",
-      "GitHub Actions",
-      "Lefthook",
-      "Atomic Design"
-    ]
+      "Docker"
+    ],
+    "highlights": {
+      "ja": [
+        "Next.js App Routerベースの大規模Frontend Architecture設計",
+        "BFF層設計およびNode.js API最適化を主導",
+        "Playwright / Pact / Jestによる包括的テスト戦略を策定",
+        "サブリーダーとしてコードレビューと技術設計を担当"
+      ],
+      "en": [
+        "Designed large-scale frontend architecture using Next.js App Router",
+        "Led BFF layer design and Node.js API optimization",
+        "Established comprehensive testing strategies using Playwright, Pact, and Jest",
+        "Handled code reviews and technical leadership as sub leader"
+      ]
+    }
   },
-
   {
-    "year": "2023 - 2024",
-
+    "year": "2025",
+    "title": {
+      "ja": "Senior Frontend Engineer",
+      "en": "Senior Frontend Engineer"
+    },
+    "company": {
+      "ja": "BtoB Platform System",
+      "en": "BtoB Platform System"
+    },
+    "summary": {
+      "ja": "Atomic Designベースの共通UI設計、BFF構築、Jest/Playwrightによるテスト戦略構築を担当。20画面以上の品質担保を実施。",
+      "en": "Built reusable UI systems using Atomic Design and established comprehensive testing strategies with Jest and Playwright."
+    },
+    "skills": [
+      "Atomic Design",
+      "Jest",
+      "Playwright",
+      "TypeScript",
+      "Sass",
+      "GitHub Actions",
+      "Lefthook"
+    ],
+    "highlights": {
+      "ja": [
+        "Atomic Designによる共通コンポーネント設計",
+        "20画面以上の単体/E2Eテストコードを単独構築",
+        "Lefthook導入によるコード品質標準化",
+        "LLMを活用した開発効率改善を推進"
+      ],
+      "en": [
+        "Built reusable component systems using Atomic Design",
+        "Implemented unit and E2E tests for over 20 screens independently",
+        "Standardized code quality by introducing Lefthook",
+        "Improved development productivity using LLM-assisted workflows"
+      ]
+    }
+  },
+  {
+    "year": "2024",
     "title": {
       "ja": "Frontend Engineer",
       "en": "Frontend Engineer"
     },
-
     "company": {
       "ja": "BtoC Mobile Web Application",
       "en": "BtoC Mobile Web Application"
     },
-
     "summary": {
-      "ja": "BtoC向けモバイルWebアプリケーションの保守・運用・改善プロジェクトに参画。Next.jsベースの機能追加、Node.js BFF設計、リファクタリング、大規模画面改善を担当。",
-      "en": "Worked on maintenance, feature development, and large-scale refactoring for a BtoC mobile web application using Next.js and Node.js."
+      "ja": "BtoC向けモバイルWebアプリの運用改善およびNext.js機能追加を担当。Node.js BFF構築、OpenAPI連携、大規模リファクタリングを推進。",
+      "en": "Handled maintenance and feature development for a BtoC mobile web application with Next.js and Node.js."
     },
-
-    "highlights": {
-      "ja": [
-        "機種変更シミュレーターなど複雑なビジネスロジックを含むUI機能を実装",
-        "OpenAPI連携によるデータ取得および状態管理ロジックを設計",
-        "Node.js(Express)ベースのBFF層を構築",
-        "CSV→JSON変換自動化などデータ基盤改善を実施",
-        "新チーム立ち上げ時の初期メンバーとして環境構築からリリースまで担当",
-        "全国エリアページ量産フローを構築し、開発効率を改善",
-        "既存システムのリファクタリングおよびコードレビューを推進"
-      ],
-
-      "en": [
-        "Implemented complex UI features including mobile device migration simulators",
-        "Designed API integration and state management workflows using OpenAPI",
-        "Built a Node.js(Express)-based BFF layer for frontend optimization",
-        "Improved data infrastructure through CSV-to-JSON automation workflows",
-        "Participated as an initial member from environment setup to production release",
-        "Optimized large-scale page production workflows for nationwide area pages",
-        "Led refactoring and code review initiatives for legacy systems"
-      ]
-    },
-
     "skills": [
       "Next.js",
       "React",
-      "TypeScript",
       "Node.js",
       "Express",
       "Redux",
       "OpenAPI",
       "Figma"
-    ]
+    ],
+    "highlights": {
+      "ja": [
+        "Next.jsベースの大規模モバイルWeb改善を担当",
+        "Node.js ExpressベースのBFF層を構築",
+        "CSV→JSON自動変換による業務効率化を実現",
+        "全国エリアページ量産フローを設計"
+      ],
+      "en": [
+        "Handled large-scale mobile web improvements using Next.js",
+        "Built BFF layers with Node.js Express",
+        "Automated CSV-to-JSON transformation workflows",
+        "Designed scalable production flows for nationwide pages"
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "title": {
+      "ja": "Frontend Engineer / Vue Developer",
+      "en": "Frontend Engineer / Vue Developer"
+    },
+    "company": {
+      "ja": "LINE MUSIC / BtoC Web Service",
+      "en": "LINE MUSIC / BtoC Web Service"
+    },
+    "summary": {
+      "ja": "Vue3とTypeScriptによるLINE MUSIC運用改善およびReact/Next.js案件に従事。Props再設計、BFF改善、UIリファクタリングを担当。",
+      "en": "Worked on LINE MUSIC frontend improvements using Vue3 and TypeScript while also contributing to React/Next.js projects."
+    },
+    "skills": [
+      "Vue3",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Bitbucket",
+      "AWS EC2",
+      "Figma"
+    ],
+    "highlights": {
+      "ja": [
+        "Vue3 / TypeScriptによるLINE MUSIC改善を担当",
+        "Props再設計による型安全性向上を実施",
+        "Next.js案件でBFFリファクタリングを推進",
+        "FigmaベースのUIリニューアルを担当"
+      ],
+      "en": [
+        "Improved LINE MUSIC using Vue3 and TypeScript",
+        "Enhanced type safety through props redesign",
+        "Led BFF refactoring tasks in Next.js projects",
+        "Handled UI renewal implementation based on Figma"
+      ]
+    }
+  },
+  {
+    "year": "2022",
+    "title": {
+      "ja": "Frontend Engineer",
+      "en": "Frontend Engineer"
+    },
+    "company": {
+      "ja": "Insurance Application / FLUX CMS",
+      "en": "Insurance Application / FLUX CMS"
+    },
+    "summary": {
+      "ja": "React Native保険アプリ新規開発およびNext.jsベースCMSリプレイス案件を担当。Atomic Design、API連携、画像管理システム設計を実施。",
+      "en": "Developed a React Native insurance application and contributed to a Next.js CMS migration project."
+    },
+    "skills": [
+      "React Native",
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Sass",
+      "Jest",
+      "AWS"
+    ],
+    "highlights": {
+      "ja": [
+        "React Native保険アプリ新規開発を担当",
+        "Atomic DesignベースのUI設計を実施",
+        "Next.js CMSリプレイス案件に参画",
+        "画像管理システムとAPI連携を構築"
+      ],
+      "en": [
+        "Developed a React Native insurance application",
+        "Implemented UI architecture using Atomic Design",
+        "Participated in a Next.js CMS migration project",
+        "Built image management systems and API integrations"
+      ]
+    }
+  },
+  {
+    "year": "2021",
+    "title": {
+      "ja": "Frontend Engineer",
+      "en": "Frontend Engineer"
+    },
+    "company": {
+      "ja": "Rakuten Payment Platform",
+      "en": "Rakuten Payment Platform"
+    },
+    "summary": {
+      "ja": "楽天Pay/Point/Cashの運用開発に従事。キャンペーン画面、決済UI、リノベーション対応、API調査、コードレビューを担当。",
+      "en": "Worked on Rakuten Pay and Point services including campaign pages, payment UIs, and large-scale frontend renovation tasks."
+    },
+    "skills": [
+      "JavaScript",
+      "TypeScript",
+      "jQuery",
+      "React",
+      "Sass",
+      "GitLab",
+      "Docker"
+    ],
+    "highlights": {
+      "ja": [
+        "楽天Pay / Point / Cash運用開発を担当",
+        "決済画面およびキャンペーンUIを実装",
+        "PHPからJavaScriptへのリプレイスを実施",
+        "APIエラー調査およびコードレビューを担当"
+      ],
+      "en": [
+        "Worked on Rakuten Pay, Point, and Cash services",
+        "Implemented payment UIs and campaign pages",
+        "Migrated legacy PHP pages to JavaScript",
+        "Handled API investigations and code reviews"
+      ]
+    }
+  },
+  {
+    "year": "2020",
+    "title": {
+      "ja": "Frontend Sub Leader",
+      "en": "Frontend Sub Leader"
+    },
+    "company": {
+      "ja": "AU Pay Market",
+      "en": "AU Pay Market"
+    },
+    "summary": {
+      "ja": "品質向上チームのサブリーダーとして、リファクタリング、コードレビュー、リリース管理を担当。",
+      "en": "Served as sub leader for frontend quality improvement initiatives including refactoring and release management."
+    },
+    "skills": [
+      "TypeScript",
+      "React",
+      "Sass",
+      "GitHub",
+      "JIRA",
+      "Confluence"
+    ],
+    "highlights": {
+      "ja": [
+        "AU Pay Market品質改善チームのサブリーダーを担当",
+        "大規模リファクタリングを推進",
+        "GitHubベースのリリース運用を管理",
+        "フルリモート環境での品質改善を実施"
+      ],
+      "en": [
+        "Served as sub leader for AU Pay Market quality initiatives",
+        "Led large-scale refactoring projects",
+        "Managed GitHub-based release operations",
+        "Improved development quality in full remote environments"
+      ]
+    }
+  },
+  {
+    "year": "2019",
+    "title": {
+      "ja": "Frontend Engineer / Offshore Leader",
+      "en": "Frontend Engineer / Offshore Leader"
+    },
+    "company": {
+      "ja": "Nomura Group / WealthNavi",
+      "en": "Nomura Group / WealthNavi"
+    },
+    "summary": {
+      "ja": "ReactベースのコミュニティWebアプリ開発およびWealthNaviサイトリノベーションを担当。オフショアチーム管理やAWS運用も経験。",
+      "en": "Developed React-based community platforms and participated in WealthNavi website renovation projects."
+    },
+    "skills": [
+      "React",
+      "Styled-components",
+      "Node.js",
+      "Chart.js",
+      "AWS",
+      "WordPress"
+    ],
+    "highlights": {
+      "ja": [
+        "ReactベースのコミュニティWebアプリを開発",
+        "ベトナムオフショアチーム管理を担当",
+        "AWS EC2/S3環境の運用を実施",
+        "WealthNaviサイトのレスポンシブ改善を担当"
+      ],
+      "en": [
+        "Developed React-based community web applications",
+        "Managed offshore development teams in Vietnam",
+        "Handled AWS EC2/S3 operational management",
+        "Improved responsive UX for WealthNavi platforms"
+      ]
+    }
+  },
+  {
+    "year": "2018",
+    "title": {
+      "ja": "Frontend Engineer / UI Designer",
+      "en": "Frontend Engineer / UI Designer"
+    },
+    "company": {
+      "ja": "Recruit Ponpare Mall / WealthNavi",
+      "en": "Recruit Ponpare Mall / WealthNavi"
+    },
+    "summary": {
+      "ja": "A/BテストによるUI/UX改善やLP制作、レスポンシブWeb開発を担当。Vue.jsやGulpによる効率化を実施。",
+      "en": "Worked on UI/UX optimization projects including A/B testing, responsive web development, and LP production."
+    },
+    "skills": [
+      "Vue.js",
+      "jQuery",
+      "Sass",
+      "Gulp",
+      "HTML5",
+      "CSS3"
+    ],
+    "highlights": {
+      "ja": [
+        "ポンパレモールのA/Bテスト施策を担当",
+        "UI/UX改善によるCVR向上を推進",
+        "Vue.jsベースの動的フォームを開発",
+        "レスポンシブLP制作およびCMS運用を担当"
+      ],
+      "en": [
+        "Handled A/B testing projects for Ponpare Mall",
+        "Improved conversion rates through UI/UX optimization",
+        "Developed dynamic UI forms using Vue.js",
+        "Built responsive LPs and handled CMS operations"
+      ]
+    }
+  },
+  {
+    "year": "2017",
+    "title": {
+      "ja": "Frontend Engineer",
+      "en": "Frontend Engineer"
+    },
+    "company": {
+      "ja": "AXA Insurance / Fujitsu Medical System",
+      "en": "AXA Insurance / Fujitsu Medical System"
+    },
+    "summary": {
+      "ja": "Reactベースの保険システム刷新および医療向けDICOMプレイヤー開発を担当。高度なUI/UX設計や印刷機能設計を実施。",
+      "en": "Worked on insurance platform renovation and medical DICOM player development using React and modern frontend technologies."
+    },
+    "skills": [
+      "React",
+      "Bootstrap",
+      "Sass",
+      "Node.js",
+      "JSON",
+      "Grunt",
+      "Babel"
+    ],
+    "highlights": {
+      "ja": [
+        "AXA保険システムのレスポンシブ化を担当",
+        "DICOM医療画像プレイヤーを開発",
+        "印刷/PDF出力機能をゼロから設計",
+        "Reactベースのモダンフロントエンドへ刷新"
+      ],
+      "en": [
+        "Implemented responsive redesigns for AXA systems",
+        "Developed medical DICOM image players",
+        "Designed complex PDF and printing systems",
+        "Migrated legacy systems to modern React architecture"
+      ]
+    }
+  },
+  {
+    "year": "2016",
+    "title": {
+      "ja": "Frontend Engineer",
+      "en": "Frontend Engineer"
+    },
+    "company": {
+      "ja": "Sony Insurance",
+      "en": "Sony Insurance"
+    },
+    "summary": {
+      "ja": "保険マイページ刷新プロジェクトにてReactベースのUI設計およびJava/Spring環境との連携開発を担当。",
+      "en": "Participated in insurance platform renovation projects using React with Java/Spring backend integration."
+    },
+    "skills": [
+      "React",
+      "Spring",
+      "Oracle",
+      "Java",
+      "Sass",
+      "Gulp"
+    ],
+    "highlights": {
+      "ja": [
+        "ソニー損保マイページ刷新プロジェクトに参画",
+        "ReactベースのUI/UX設計を担当",
+        "Java Spring環境との連携実装を経験",
+        "レスポンシブ対応によるUX改善を推進"
+      ],
+      "en": [
+        "Participated in Sony Insurance platform renovation",
+        "Handled React-based UI/UX implementation",
+        "Integrated frontend systems with Java Spring environments",
+        "Improved UX through responsive web design"
+      ]
+    }
+  },
+  {
+    "year": "2015",
+    "title": {
+      "ja": "Frontend / Android Engineer",
+      "en": "Frontend / Android Engineer"
+    },
+    "company": {
+      "ja": "Yahoo Internal System / Android Development",
+      "en": "Yahoo Internal System / Android Development"
+    },
+    "summary": {
+      "ja": "Angular.jsを用いた社内広告管理システム開発およびAndroid SDKによるモバイルアプリ開発に従事。",
+      "en": "Worked on internal advertising systems with Angular.js and Android application development using Android SDK."
+    },
+    "skills": [
+      "Angular.js",
+      "Android SDK",
+      "Java",
+      "Access VBA",
+      "MySQL",
+      "Git"
+    ],
+    "highlights": {
+      "ja": [
+        "Angular.jsによる社内広告管理システム開発",
+        "Android SDKを用いたモバイルアプリ開発",
+        "Access VBAによる業務システム開発を担当",
+        "Javaベースのバックエンド実装を経験"
+      ],
+      "en": [
+        "Developed internal systems using Angular.js",
+        "Built Android applications with Android SDK",
+        "Worked on enterprise systems using Access VBA",
+        "Experienced Java-based backend development"
+      ]
+    }
+  },
+  {
+    "year": "2014",
+    "title": {
+      "ja": "Backend Engineer / Web Designer",
+      "en": "Backend Engineer / Web Designer"
+    },
+    "company": {
+      "ja": "NTT Communication System / Sankei Collaboration Media",
+      "en": "NTT Communication System / Sankei Collaboration Media"
+    },
+    "summary": {
+      "ja": "NTT向け業務システムの機能追加およびWebデザイン案件を担当。Java、Oracle、HTML/CSSによる開発経験を習得。",
+      "en": "Worked on enterprise systems for NTT and web design projects using Java, Oracle, HTML, and CSS."
+    },
+    "skills": [
+      "Java",
+      "Oracle",
+      "HTML",
+      "CSS",
+      "jQuery",
+      "Photoshop",
+      "Illustrator"
+    ],
+    "highlights": {
+      "ja": [
+        "NTT向け通信運用システム開発に従事",
+        "JavaおよびOracle環境での機能追加を担当",
+        "Webデザインおよび広告企画を経験",
+        "HTML/CSS/jQueryベースのサイト制作を担当"
+      ],
+      "en": [
+        "Worked on enterprise systems for NTT communications",
+        "Implemented new features using Java and Oracle",
+        "Handled web design and advertisement planning",
+        "Built websites using HTML, CSS, and jQuery"
+      ]
+    }
   }
 ]
