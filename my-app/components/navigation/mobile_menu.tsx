@@ -41,14 +41,14 @@ export default function MobileMenu() {
       {open && (
         <div className="absolute top-16 right-0 flex w-52 flex-col gap-2 rounded-3xl border border-white/30 bg-white/70 p-3 shadow-2xl backdrop-blur-xl">
           {menus.map((menu) => (
-            <Link
+            <a
               key={menu.href}
               href={menu.href}
               onClick={() => setOpen(false)}
-              className="rounded-2xl px-4 py-3 text-sm font-semibold text-black/70 transition-all duration-300 hover:bg-black hover:text-white"
+              className="block rounded-2xl px-4 py-3 text-sm font-semibold text-black/70 transition-all duration-300 hover:bg-black hover:text-white"
             >
               {menu.label}
-            </Link>
+            </a>
           ))}
         </div>
       )}
